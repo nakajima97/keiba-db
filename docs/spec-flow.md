@@ -4,15 +4,15 @@
 
 ## ドキュメント一覧
 
-| ファイル | 目的 | 状態 |
-|---|---|---|
-| `docs/braindump.md` | 要件定義前のアイデアメモ | 作成済み |
-| `docs/specs/tasks.yaml` | CRUDベースのタスク一覧 | 作成済み |
-| `docs/specs/entities.yaml` | エンティティ・属性の構造定義（ID付き） | 作成済み |
-| `docs/specs/conceptual-er.md` | エンティティ間の関係（概念ER図） | 作成済み |
-| `docs/specs/views.yaml` | ビュー一覧（タスクのまとまり） | 作成済み |
-| `docs/specs/screens.yaml` | 画面一覧（ビューの配置先） | 未着手 |
-| `docs/specs/transitions.md` | 画面遷移図 | 未着手 |
+| ファイル | 目的 |
+|---|---|
+| `docs/braindump.md` | 要件定義前のアイデアメモ |
+| `docs/specs/tasks.yaml` | CRUDベースのタスク一覧 |
+| `docs/specs/entities.yaml` | エンティティ・属性の構造定義（ID付き） |
+| `docs/specs/conceptual-er.md` | エンティティ間の関係（概念ER図） |
+| `docs/specs/views.yaml` | ビュー一覧（タスクのまとまり） |
+| `docs/specs/screens.yaml` | 画面一覧（ビューの配置先） |
+| `docs/specs/transitions.md` | 画面遷移図 |
 
 ## 設計フロー
 
