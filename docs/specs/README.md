@@ -7,7 +7,8 @@
 | ファイル | 概要 |
 |---|---|
 | [tasks.yaml](tasks.yaml) | CRUDベースのタスク一覧 |
-| [entities.md](entities.md) | エンティティ一覧と関係 |
+| [entities.yaml](entities.yaml) | エンティティ・属性の構造定義（ID付き） |
+| [entities.md](entities.md) | エンティティ間の関係（ER図） |
 | [views.yaml](views.yaml) | ビュー一覧（タスクのまとまり）|
 | [screens.yaml](screens.yaml) | 画面一覧（ビューの配置先） |
 | [transitions.md](transitions.md) | 画面遷移図 |

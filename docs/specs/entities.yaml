@@ -1,0 +1,151 @@
+# エンティティ一覧
+# idはe_xでxには数字が入る
+# 属性idはa_xでxには数字が入る（エンティティをまたいでグローバルに連番）
+# 連番で割り振るが欠番を許容する
+# 一度割り振ったidは使わない
+
+- id: e_1
+  name: レース場
+  description: 競馬場の情報
+  attributes:
+    - id: a_1
+      name: 名称
+      type: string
+    - id: a_2
+      name: 略称
+      type: string
+
+- id: e_2
+  name: レース情報
+  description: 特定のレースの情報
+  attributes:
+    - id: a_3
+      name: レース名
+      type: string
+    - id: a_4
+      name: 開催日
+      type: date
+    - id: a_5
+      name: レース番号
+      type: integer
+    - id: a_6
+      name: レース場
+      type: ref
+      references: e_1
+    - id: a_7
+      name: 距離
+      type: integer
+    - id: a_8
+      name: クラス
+      type: enum
+      values: [新馬, 未勝利, 1勝クラス, 2勝クラス, 3勝クラス, オープン, G3, G2, G1]
+    - id: a_9
+      name: 馬場状態
+      type: enum
+      values: [良, 稍重, 重, 不良]
+
+- id: e_3
+  name: レース結果
+  description: レースの着順など結果
+  attributes:
+    - id: a_10
+      name: レース情報
+      type: ref
+      references: e_2
+    - id: a_11
+      name: 着順
+      type: integer
+    - id: a_12
+      name: 馬番
+      type: integer
+    - id: a_13
+      name: 馬
+      type: ref
+      references: e_4
+    - id: a_14
+      name: 騎手
+      type: ref
+      references: e_5
+
+- id: e_4
+  name: 馬
+  description: 出走馬の情報
+  attributes:
+    - id: a_15
+      name: 馬名
+      type: string
+
+- id: e_5
+  name: 騎手
+  description: 騎手の情報
+  attributes:
+    - id: a_16
+      name: 騎手名
+      type: string
+
+- id: e_6
+  name: 購入馬券
+  description: ユーザーが購入した馬券
+  attributes:
+    - id: a_17
+      name: レース情報
+      type: ref
+      references: e_2
+    - id: a_18
+      name: 馬券種別
+      type: enum
+      values: [単勝, 複勝, 馬連, 馬単, ワイド, 三連複, 三連単]
+    - id: a_19
+      name: 購入金額
+      type: money
+    - id: a_20
+      name: 馬番
+      type: string  # 複数馬番の組み合わせ (例: "1-3")
+
+- id: e_7
+  name: 払い戻し
+  description: 購入馬券に対する払い戻し金額
+  attributes:
+    - id: a_21
+      name: 購入馬券
+      type: ref
+      references: e_6
+    - id: a_22
+      name: 払い戻し金額
+      type: money
+
+- id: e_8
+  name: レース場メモ
+  description: レース場に対するメモ
+  attributes:
+    - id: a_23
+      name: レース場
+      type: ref
+      references: e_1
+    - id: a_24
+      name: メモ
+      type: string
+
+- id: e_9
+  name: 馬メモ
+  description: 馬に対するメモ
+  attributes:
+    - id: a_25
+      name: 馬
+      type: ref
+      references: e_4
+    - id: a_26
+      name: メモ
+      type: string
+
+- id: e_10
+  name: 騎手メモ
+  description: 騎手に対するメモ
+  attributes:
+    - id: a_27
+      name: 騎手
+      type: ref
+      references: e_5
+    - id: a_28
+      name: メモ
+      type: string
