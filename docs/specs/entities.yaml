@@ -19,6 +19,18 @@
       type: enum
       values: [中央, 地方, 海外]
 
+- id: e_16
+  name: 開催
+  description: 特定の日・競馬場で行われる開催（例：2026-03-22 東京）
+  attributes:
+    - id: a_47
+      name: 開催日
+      type: date
+    - id: a_48
+      name: レース場
+      type: ref
+      references: e_1
+
 - id: e_2
   name: レース情報
   description: 特定のレースの情報
@@ -27,9 +39,10 @@
       name: レース名
       type: ref
       references: e_14
-    - id: a_4
-      name: 開催日
-      type: date
+    - id: a_49
+      name: 開催
+      type: ref
+      references: e_16
     - id: a_5
       name: レース番号
       type: integer

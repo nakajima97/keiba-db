@@ -6,6 +6,14 @@
 #   title   : ビューの名称
 #   tasks   : 対応するタスクID (tasks.yaml)
 
+# 開催
+- id: v_25
+  title: 開催一覧
+  tasks: [t_63]
+- id: v_26
+  title: 開催フォーム
+  tasks: [t_62, t_64, t_65]
+
 # 認証
 - id: v_1
   title: 認証

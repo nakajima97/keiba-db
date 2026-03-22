@@ -5,3 +5,74 @@
 #   id      : 画面ID (s_N)
 #   title   : 画面の名称
 #   views   : 配置するビューID (views.yaml)
+
+# 認証
+- id: s_1
+  title: ログイン画面
+  views: [v_1]
+
+# 収支
+- id: s_2
+  title: 収支集計画面
+  views: [v_17]
+
+# 開催
+- id: s_3
+  title: 開催一覧画面
+  views: [v_25]
+- id: s_4
+  title: 開催詳細画面
+  views: [v_26]
+
+# レース情報
+- id: s_5
+  title: レース情報一覧画面
+  views: [v_11]
+- id: s_6
+  title: レース情報詳細画面
+  views: [v_12, v_13, v_14, v_24]
+
+# 購入馬券
+- id: s_7
+  title: 購入馬券詳細画面
+  views: [v_15, v_16]
+
+# レース場
+- id: s_8
+  title: レース場一覧画面
+  views: [v_2]
+- id: s_9
+  title: レース場詳細画面
+  views: [v_3, v_4]
+
+# 馬
+- id: s_10
+  title: 馬一覧画面
+  views: [v_5]
+- id: s_11
+  title: 馬詳細画面
+  views: [v_6, v_7]
+
+# 騎手
+- id: s_12
+  title: 騎手一覧画面
+  views: [v_8]
+- id: s_13
+  title: 騎手詳細画面
+  views: [v_9, v_10]
+
+# レース名
+- id: s_14
+  title: レース名一覧画面
+  views: [v_18]
+- id: s_15
+  title: レース名詳細画面
+  views: [v_19, v_20]
+
+# コース
+- id: s_16
+  title: コース一覧画面
+  views: [v_21]
+- id: s_17
+  title: コース詳細画面
+  views: [v_22, v_23]

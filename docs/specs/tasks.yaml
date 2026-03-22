@@ -3,6 +3,24 @@
 # 連番で割り振るが欠番を許容する
 # 一度割り振ったidは使わない
 
+# 開催
+- id: t_62
+  user: 開催を登録する
+  system: 開催を保存する
+  crud: C
+- id: t_63
+  user: 開催を確認する
+  system: 開催を表示する
+  crud: R
+- id: t_64
+  user: 開催を修正する
+  system: 開催を更新する
+  crud: U
+- id: t_65
+  user: 開催を削除する
+  system: 開催を削除する
+  crud: D
+
 # 認証
 - id: t_41
   user: ログインする
