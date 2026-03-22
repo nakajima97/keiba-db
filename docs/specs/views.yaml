@@ -1,0 +1,76 @@
+# ビュー一覧
+# タスクを完遂するために必要なUIの塊
+#
+# スキーマ:
+#   id      : ビューID (v_N)
+#   title   : ビューの名称
+#   tasks   : 対応するタスクID (tasks.yaml)
+
+# 認証
+- id: v_1
+  title: ログインフォーム
+  tasks: [t_41]
+
+# レース場
+- id: v_2
+  title: レース場一覧
+  tasks: [t_22]
+- id: v_3
+  title: レース場フォーム
+  tasks: [t_21, t_23, t_24]
+- id: v_4
+  title: レース場メモ
+  tasks: [t_25, t_26, t_27, t_28]
+
+# 馬
+- id: v_5
+  title: 馬一覧
+  tasks: [t_30]
+- id: v_6
+  title: 馬フォーム
+  tasks: [t_29, t_31, t_32]
+- id: v_7
+  title: 馬メモ
+  tasks: [t_13, t_14, t_15, t_16]
+
+# 騎手
+- id: v_8
+  title: 騎手一覧
+  tasks: [t_34]
+- id: v_9
+  title: 騎手フォーム
+  tasks: [t_33, t_35, t_36]
+- id: v_10
+  title: 騎手メモ
+  tasks: [t_17, t_18, t_19, t_20]
+
+# レース情報
+- id: v_11
+  title: レース情報一覧
+  tasks: [t_6]
+- id: v_12
+  title: レース情報フォーム
+  tasks: [t_5, t_7, t_8]
+
+# レース結果
+- id: v_13
+  title: レース結果
+  tasks: [t_37, t_38, t_39, t_40]
+
+# 購入馬券
+- id: v_14
+  title: 購入馬券一覧
+  tasks: [t_2]
+- id: v_15
+  title: 購入馬券フォーム
+  tasks: [t_1, t_3, t_4]
+
+# 払い戻し
+- id: v_16
+  title: 払い戻しフォーム
+  tasks: [t_9, t_10, t_11]
+
+# 収支集計
+- id: v_17
+  title: 収支集計
+  tasks: [t_12]
