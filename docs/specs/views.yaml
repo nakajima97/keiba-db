@@ -8,8 +8,8 @@
 
 # 認証
 - id: v_1
-  title: ログインフォーム
-  tasks: [t_41]
+  title: 認証
+  tasks: [t_41, t_42]
 
 # レース場
 - id: v_2
@@ -74,3 +74,30 @@
 - id: v_17
   title: 収支集計
   tasks: [t_12]
+
+# レース名
+- id: v_18
+  title: レース名一覧
+  tasks: [t_44]
+- id: v_19
+  title: レース名フォーム
+  tasks: [t_43, t_45, t_46]
+- id: v_20
+  title: レース名傾向メモ
+  tasks: [t_47, t_48, t_49, t_50]
+
+# コース
+- id: v_21
+  title: コース一覧
+  tasks: [t_52]
+- id: v_22
+  title: コースフォーム
+  tasks: [t_51, t_53, t_54]
+- id: v_23
+  title: コースメモ
+  tasks: [t_55, t_56, t_57, t_58]
+
+# レース公式払戻金
+- id: v_24
+  title: レース公式払戻金
+  tasks: [t_59, t_60, t_61]

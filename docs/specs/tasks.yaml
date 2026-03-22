@@ -195,3 +195,90 @@
   user: 収支を確認する
   system: 購入馬券と払い戻し金額から収支を集計して表示する
   crud: R
+
+# レース名
+- id: t_43
+  user: レース名を登録する
+  system: レース名を保存する
+  crud: C
+- id: t_44
+  user: レース名を確認する
+  system: レース名を表示する
+  crud: R
+- id: t_45
+  user: レース名を修正する
+  system: レース名を更新する
+  crud: U
+- id: t_46
+  user: レース名を削除する
+  system: レース名を削除する
+  crud: D
+
+# レース名傾向メモ
+- id: t_47
+  user: レース名にメモを登録する
+  system: レース名のメモを保存する
+  crud: C
+- id: t_48
+  user: レース名のメモを確認する
+  system: レース名のメモを表示する
+  crud: R
+- id: t_49
+  user: レース名のメモを修正する
+  system: レース名のメモを更新する
+  crud: U
+- id: t_50
+  user: レース名のメモを削除する
+  system: レース名のメモを削除する
+  crud: D
+
+# コース
+- id: t_51
+  user: コースを登録する
+  system: コースを保存する
+  crud: C
+- id: t_52
+  user: コースを確認する
+  system: コースを表示する
+  crud: R
+- id: t_53
+  user: コースを修正する
+  system: コースを更新する
+  crud: U
+- id: t_54
+  user: コースを削除する
+  system: コースを削除する
+  crud: D
+
+# コースメモ
+- id: t_55
+  user: コースにメモを登録する
+  system: コースのメモを保存する
+  crud: C
+- id: t_56
+  user: コースのメモを確認する
+  system: コースのメモを表示する
+  crud: R
+- id: t_57
+  user: コースのメモを修正する
+  system: コースのメモを更新する
+  crud: U
+- id: t_58
+  user: コースのメモを削除する
+  system: コースのメモを削除する
+  crud: D
+
+# レース公式払戻金
+# 削除はレース情報削除時に連動削除するため対象外
+- id: t_59
+  user: レース公式払戻金を登録する
+  system: レース公式払戻金を保存する
+  crud: C
+- id: t_60
+  user: レース公式払戻金を確認する
+  system: レース公式払戻金を表示する
+  crud: R
+- id: t_61
+  user: レース公式払戻金を修正する
+  system: レース公式払戻金を更新する
+  crud: U
