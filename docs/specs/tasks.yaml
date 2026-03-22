@@ -94,3 +94,39 @@
   user: 騎手のメモを削除する
   system: 騎手のメモを削除する
   crud: D
+
+# レース場
+- id: t_21
+  user: レース場を登録する
+  system: レース場を保存する
+  crud: C
+- id: t_22
+  user: レース場を確認する
+  system: レース場を表示する
+  crud: R
+- id: t_23
+  user: レース場を修正する
+  system: レース場を更新する
+  crud: U
+- id: t_24
+  user: レース場を削除する
+  system: レース場を削除する
+  crud: D
+
+# レース場メモ
+- id: t_25
+  user: レース場にメモを登録する
+  system: レース場のメモを保存する
+  crud: C
+- id: t_26
+  user: レース場のメモを確認する
+  system: レース場のメモを表示する
+  crud: R
+- id: t_27
+  user: レース場のメモを修正する
+  system: レース場のメモを更新する
+  crud: U
+- id: t_28
+  user: レース場のメモを削除する
+  system: レース場のメモを削除する
+  crud: D
