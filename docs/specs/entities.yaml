@@ -25,7 +25,8 @@
   attributes:
     - id: a_3
       name: レース名
-      type: string
+      type: ref
+      references: e_14
     - id: a_4
       name: 開催日
       type: date
@@ -33,13 +34,10 @@
       name: レース番号
       type: integer
       description: 当日の開催順を示す番号（1R〜12Rなど）
-    - id: a_6
-      name: レース場
+    - id: a_42
+      name: コース
       type: ref
-      references: e_1
-    - id: a_7
-      name: 距離
-      type: integer
+      references: e_15
     - id: a_8
       name: クラス
       type: enum
@@ -171,5 +169,53 @@
       type: ref
       references: e_5
     - id: a_28
+      name: メモ
+      type: string
+
+- id: e_15
+  name: コース
+  description: "レース場・馬場種別・距離の組み合わせ（例: 東京芝1200m）"
+  attributes:
+    - id: a_44
+      name: レース場
+      type: ref
+      references: e_1
+    - id: a_45
+      name: 馬場種別
+      type: enum
+      values: [芝, ダート, 障害]
+    - id: a_46
+      name: 距離
+      type: integer
+
+- id: e_12
+  name: コースメモ
+  description: コースに対する傾向メモ
+  attributes:
+    - id: a_43
+      name: コース
+      type: ref
+      references: e_15
+    - id: a_38
+      name: メモ
+      type: string
+
+- id: e_14
+  name: レース名
+  description: 宝塚記念・日本ダービーなど競走の名称
+  attributes:
+    - id: a_41
+      name: 名称
+      type: string
+
+- id: e_13
+  name: レース名傾向メモ
+  description: レース名に対する傾向メモ（重賞など特定レースの傾向）
+  attributes:
+    - id: a_39
+      name: レース名
+      type: ref
+      references: e_14
+    - id: a_40
       name: メモ
       type: string
