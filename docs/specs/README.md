@@ -15,5 +15,4 @@
 
 ## 設計フロー
 
-`tasks.yaml` → `entities.md` → `views.yaml` → `screens.yaml` → `transitions.md` の順に作成する。
-詳細は [spec-flow.md](../spec-flow.md) を参照。
+[spec-flow.md](../spec-flow.md) を参照。
