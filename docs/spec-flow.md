@@ -9,7 +9,7 @@
 | `docs/braindump.md` | 要件定義前のアイデアメモ |
 | `docs/specs/tasks.yaml` | CRUDベースのタスク一覧 |
 | `docs/specs/entities.yaml` | エンティティ・属性の構造定義（ID付き） |
-| `docs/specs/entities.md` | エンティティ間の関係（ER図） |
+| `docs/specs/conceptual-er.md` | エンティティ間の関係（概念ER図） |
 | `docs/specs/views.yaml` | ビュー一覧（タスクのまとまり） |
 | `docs/specs/screens.yaml` | 画面一覧（ビューの配置先） |
 | `docs/specs/transitions.md` | 画面遷移図 |
@@ -24,7 +24,7 @@ tasks.yaml
   └─ 必要な機能をCRUD単位で列挙
      各タスクに id(t_x)・ユーザー視点・システム処理・CRUD種別を記載
         ↓
-entities.md
+conceptual-er.md
   └─ タスクからエンティティを抽出し関係を整理
      ビュー設計の前提となるデータ構造を把握する
         ↓
