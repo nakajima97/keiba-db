@@ -3,6 +3,7 @@
 # 連番で割り振るが欠番を許容する
 # 一度割り振ったidは使わない
 
+# 購入馬券
 - id: t_1
   user: 購入馬券を登録する
   system: 購入馬券を保存する
@@ -11,3 +12,85 @@
   user: 購入馬券を確認する
   system: 購入馬券を表示する
   crud: R
+- id: t_3
+  user: 購入馬券を修正する
+  system: 購入馬券を更新する
+  crud: U
+- id: t_4
+  user: 購入馬券を削除する
+  system: 購入馬券を削除する
+  crud: D
+
+# レース情報
+- id: t_5
+  user: レース情報を登録する
+  system: レース情報を保存する
+  crud: C
+- id: t_6
+  user: レース情報を確認する
+  system: レース情報を表示する
+  crud: R
+- id: t_7
+  user: レース情報を修正する
+  system: レース情報を更新する
+  crud: U
+- id: t_8
+  user: レース情報を削除する
+  system: レース情報を削除する
+  crud: D
+
+# 払い戻し
+- id: t_9
+  user: 払い戻し金額を登録する
+  system: 払い戻し金額を保存する
+  crud: C
+- id: t_10
+  user: 払い戻し金額を確認する
+  system: 払い戻し金額を表示する
+  crud: R
+- id: t_11
+  user: 払い戻し金額を修正する
+  system: 払い戻し金額を更新する
+  crud: U
+
+# 収支集計
+- id: t_12
+  user: 収支を確認する
+  system: 購入馬券と払い戻し金額から収支を集計して表示する
+  crud: R
+
+# 馬メモ
+- id: t_13
+  user: 馬にメモを登録する
+  system: 馬のメモを保存する
+  crud: C
+- id: t_14
+  user: 馬のメモを確認する
+  system: 馬のメモを表示する
+  crud: R
+- id: t_15
+  user: 馬のメモを修正する
+  system: 馬のメモを更新する
+  crud: U
+- id: t_16
+  user: 馬のメモを削除する
+  system: 馬のメモを削除する
+  crud: D
+
+# 騎手メモ
+- id: t_17
+  user: 騎手にメモを登録する
+  system: 騎手のメモを保存する
+  crud: C
+- id: t_18
+  user: 騎手のメモを確認する
+  system: 騎手のメモを表示する
+  crud: R
+- id: t_19
+  user: 騎手のメモを修正する
+  system: 騎手のメモを更新する
+  crud: U
+- id: t_20
+  user: 騎手のメモを削除する
+  system: 騎手のメモを削除する
+  crud: D
