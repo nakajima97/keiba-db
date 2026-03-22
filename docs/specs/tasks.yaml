@@ -130,3 +130,67 @@
   user: レース場のメモを削除する
   system: レース場のメモを削除する
   crud: D
+
+# 馬
+- id: t_29
+  user: 馬を登録する
+  system: 馬を保存する
+  crud: C
+- id: t_30
+  user: 馬を確認する
+  system: 馬を表示する
+  crud: R
+- id: t_31
+  user: 馬の情報を修正する
+  system: 馬を更新する
+  crud: U
+- id: t_32
+  user: 馬を削除する
+  system: 馬を削除する
+  crud: D
+
+# 騎手
+- id: t_33
+  user: 騎手を登録する
+  system: 騎手を保存する
+  crud: C
+- id: t_34
+  user: 騎手を確認する
+  system: 騎手を表示する
+  crud: R
+- id: t_35
+  user: 騎手の情報を修正する
+  system: 騎手を更新する
+  crud: U
+- id: t_36
+  user: 騎手を削除する
+  system: 騎手を削除する
+  crud: D
+
+# レース結果
+- id: t_37
+  user: レース結果を登録する
+  system: レース結果を保存する
+  crud: C
+- id: t_38
+  user: レース結果を確認する
+  system: レース結果を表示する
+  crud: R
+- id: t_39
+  user: レース結果を修正する
+  system: レース結果を更新する
+  crud: U
+- id: t_40
+  user: レース結果を削除する
+  system: レース結果を削除する
+  crud: D
+
+# 認証
+- id: t_41
+  user: ログインする
+  system: 認証してセッションを開始する
+  crud: C
+- id: t_42
+  user: ログアウトする
+  system: セッションを終了する
+  crud: D
