@@ -7,10 +7,10 @@
 | ファイル | 目的 |
 |---|---|
 | `docs/braindump.md` | 要件定義前のアイデアメモ |
-| `docs/spec/tasks.yaml` | CRUDベースのタスク一覧 |
-| `docs/spec/views.yaml` | ビュー一覧（タスクのまとまり） |
-| `docs/spec/screens.yaml` | 画面一覧（ビューの配置先） |
-| `docs/spec/transitions.md` | 画面遷移図 |
+| `docs/specs/tasks.yaml` | CRUDベースのタスク一覧 |
+| `docs/specs/views.yaml` | ビュー一覧（タスクのまとまり） |
+| `docs/specs/screens.yaml` | 画面一覧（ビューの配置先） |
+| `docs/specs/transitions.md` | 画面遷移図 |
 
 ## 設計フロー
 
