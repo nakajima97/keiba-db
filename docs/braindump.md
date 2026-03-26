@@ -11,8 +11,8 @@
 - ネットで公開されている仕様駆動系を試すことなく懐疑的な目を持っているので触ってみよう　→　Claude的には使わなくていいんじゃね？とのこと。規律がしっかりしていて守るのがだるくなってくるぞとのこと。
   - 今後も確実にメンテされる：https://github.com/github/spec-kit
   - 日本語でよさそう：https://github.com/classmethod/tsumiki
-- Stitchが無料のうちに1個アプリ作りたい
-  - https://stitch.withgoogle.com/
+- AI-DLC使ってみる
+  - https://github.com/awslabs/aidlc-workflows?tab=readme-ov-file#claude-code
 
 ## 制約
 ### 機能的
