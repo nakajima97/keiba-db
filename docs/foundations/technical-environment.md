@@ -19,9 +19,14 @@
 | 項目 | バージョン | 用途 |
 |------|-----------|------|
 | Laravel | 13.x | バックエンドフレームワーク |
-| Inertia.js | 最新安定版 | サーバーサイドとフロントエンドの統合 |
-| React | 最新安定版 | フロントエンド UI |
-| Tailwind CSS | 最新安定版 | スタイリング |
+| Inertia.js | 3.x | サーバーサイドとフロントエンドの統合 |
+| React | 19.x | フロントエンド UI |
+| TypeScript | 5.x | フロントエンド型安全性 |
+| Tailwind CSS | 4.x | スタイリング |
+| shadcn/ui | 最新安定版 | UI コンポーネント（Radix UI ベース） |
+| Laravel Fortify | 1.x | 認証バックエンド |
+
+スターターキット: [laravel/react-starter-kit](https://laravel.com/starter-kits#react)
 
 ## データベース
 
@@ -71,7 +76,7 @@ keiba-db/
 
 | 項目 | 内容 |
 |------|------|
-| 認証 | Laravel Breeze（セッション認証） |
+| 認証 | Laravel Fortify（セッション認証） |
 | 対象ユーザー | 個人利用のみ（シングルユーザー） |
 | データ | 競馬記録データはリポジトリにコミットしない |
 | CSRF | Laravel 標準の CSRF 保護を使用 |
