@@ -13,6 +13,9 @@
   - 日本語でよさそう：https://github.com/classmethod/tsumiki
 - AI-DLC使ってみる
   - https://github.com/awslabs/aidlc-workflows?tab=readme-ov-file#claude-code
+- Stitchが無料のうちに1個アプリ作りたい
+  - https://stitch.withgoogle.com/
+  - AI-DLCで十分そうだったら無視
 
 ## 制約
 ### 機能的
