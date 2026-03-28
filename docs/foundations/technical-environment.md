@@ -64,6 +64,8 @@ keiba-db/
 └── CLAUDE.md
 ```
 
+フロントエンドのディレクトリ設計（`source/resources/js/` 配下）は [docs/architecture/frontend.md](../architecture/frontend.md) を参照。
+
 ## ローカル開発環境
 
 | 項目 | 内容 |

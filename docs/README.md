@@ -6,6 +6,7 @@
 |---|---|
 | [specs/](specs/) | 実装に向けた要件定義資料 |
 | [adr/](adr/) | 設計上の意思決定とその理由を記録する（[ADR一覧](adr/README.md)） |
+| [architecture/](architecture/) | アーキテクチャ設計ドキュメント |
 
 ## ドキュメント一覧
 
