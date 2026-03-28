@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "laravel-boost": {
+      "command": "docker",
+      "args": [
+        "compose",
+        "-f",
+        "/home/user/source/keiba-db/source/compose.yaml",
+        "exec",
+        "-T",
+        "laravel.test",
+        "php",
+        "artisan",
+        "boost:mcp"
+      ]
+    }
+  }
+}
