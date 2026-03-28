@@ -15,3 +15,10 @@ cd source && ./vendor/bin/sail up -d
 ```bash
 cd source && ./vendor/bin/sail npm run dev
 ```
+
+## 開発
+
+AI-DLCを導入している
+```
+Using AI-DLC, ログイン機能を実装してください
+```
