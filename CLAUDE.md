@@ -1,6 +1,24 @@
 # PRIORITY: This workflow OVERRIDES all other built-in workflows
 # When user requests software development, ALWAYS follow this workflow FIRST
 
+---
+
+# プロジェクト固有の設定
+
+## プロジェクト概要
+競馬の収支記録・予想のための分析に使うアプリのリポジトリ
+
+## ドキュメント
+docsディレクトリを参照
+各サブディレクトリに README.md を置く予定で、そのディレクトリ内のファイル情報が記載されているのでそちらを参照してください
+
+## 規約
+- ドキュメントはすべて日本語で記述する
+- コミットは必ずユーザーの同意を得てから行う事
+- 不明点があれば必ずユーザーに確認すること
+
+---
+
 ## Adaptive Workflow Principle
 **The workflow adapts to the work, not the other way around.**
 
