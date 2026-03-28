@@ -26,6 +26,7 @@ const setCookie = (name: string, value: string, days = 365): void => {
     }
 
     const maxAge = days * 24 * 60 * 60;
+    // biome-ignore lint/suspicious/noDocumentCookie: SSR向けにcookieを直接設定
     document.cookie = `${name}=${value};path=/;max-age=${maxAge};SameSite=Lax`;
 };
 
@@ -58,6 +59,7 @@ const subscribe = (callback: () => void) => {
     return () => listeners.delete(callback);
 };
 
+// biome-ignore lint/suspicious/useIterableCallbackReturn: voidを返すコールバック
 const notify = (): void => listeners.forEach((listener) => listener());
 
 const mediaQuery = (): MediaQueryList | null => {

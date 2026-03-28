@@ -1,12 +1,12 @@
 import { Form, Head } from '@inertiajs/react';
-import InputError from '@/shared/ui/input-error';
-import PasswordInput from '@/shared/ui/password-input';
+import { store } from '@/routes/login';
 import { Button } from '@/shared/ui/button';
 import { Checkbox } from '@/shared/ui/checkbox';
 import { Input } from '@/shared/ui/input';
+import InputError from '@/shared/ui/input-error';
 import { Label } from '@/shared/ui/label';
+import PasswordInput from '@/shared/ui/password-input';
 import { Spinner } from '@/shared/ui/spinner';
-import { store } from '@/routes/login';
 
 type Props = {
     status?: string;
@@ -33,7 +33,7 @@ export default function Login({ status }: Props) {
                                     name="email"
                                     required
                                     autoFocus
-                                    tabIndex={1}
+                                    tabIndex="0"
                                     autoComplete="email"
                                     placeholder="email@example.com"
                                 />
@@ -46,7 +46,7 @@ export default function Login({ status }: Props) {
                                     id="password"
                                     name="password"
                                     required
-                                    tabIndex={2}
+                                    tabIndex="0"
                                     autoComplete="current-password"
                                     placeholder="Password"
                                 />
@@ -57,7 +57,7 @@ export default function Login({ status }: Props) {
                                 <Checkbox
                                     id="remember"
                                     name="remember"
-                                    tabIndex={3}
+                                    tabIndex="0"
                                 />
                                 <Label htmlFor="remember">Remember me</Label>
                             </div>
@@ -65,7 +65,7 @@ export default function Login({ status }: Props) {
                             <Button
                                 type="submit"
                                 className="mt-4 w-full"
-                                tabIndex={4}
+                                tabIndex="0"
                                 disabled={processing}
                                 data-test="login-button"
                             >
