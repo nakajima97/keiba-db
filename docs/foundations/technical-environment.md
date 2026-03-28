@@ -71,7 +71,7 @@ keiba-db/
 | 項目 | 内容 |
 |------|------|
 | 構築方法 | Laravel Sail（Docker） |
-| 起動コマンド | `./source/vendor/bin/sail up -d` |
+| 起動コマンド | `cd source && ./vendor/bin/sail up -d` |
 | 前提条件 | Docker Desktop インストール済み |
 
 ## セキュリティ方針
