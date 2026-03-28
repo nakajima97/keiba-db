@@ -12,3 +12,4 @@ xxxには連番を入れる
 | ID | タイトル | Status |
 |---|---|---|
 | [ADR-1](ADR-1.md) | 払い戻し削除機能を実装しない | Accepted |
+| [ADR-2](ADR-2.md) | フロントエンドのディレクトリ設計に Feature-Sliced Design を採用する | Accepted |
